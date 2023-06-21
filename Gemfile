@@ -47,3 +47,5 @@ group :development do
 end
 
 gem 'dotenv-rails'
+gem 'swagger-blocks'
+gem "sprockets", "<4"
