@@ -27,6 +27,7 @@ class ApidocsController < ActionController::Base
     SWAGGERED_CLASSES = [
       Swagger::Controllers::SectionsController,
       Swagger::Controllers::AnswersController,
+      Swagger::Controllers::QuestionsController,
       self
     ].freeze
     
